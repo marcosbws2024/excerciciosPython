@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39c7542e-fe64-491f-8158-cc922e8c9aad" name="Changes" comment="novos exercicios">
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex006.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex008.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex009.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex010.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex011.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex013.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex014.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Ex015.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 3/Operadores.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,73 +71,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in Ex012.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex006.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex007.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex008.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex009.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex010.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex011.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex013.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex014.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ex15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ExNum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ExemploPessoa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Operadores.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SaidaFormatada1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.areaRetangulo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.atribuicao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.atribuicoes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calcularExpressao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.complex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conceitoBinding.executor&quot;: &quot;Run&quot;,
-    &quot;Python.constante.executor&quot;: &quot;Run&quot;,
-    &quot;Python.contantepip.executor&quot;: &quot;Run&quot;,
-    &quot;Python.convesaoTipo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.divisao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.escopoTempVida.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fasfood.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcaoImprimeDados.executor&quot;: &quot;Run&quot;,
-    &quot;Python.imc.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.media.executor&quot;: &quot;Run&quot;,
-    &quot;Python.multiplicar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.precedencia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.primeiroprograma.executor&quot;: &quot;Run&quot;,
-    &quot;Python.soma2num.executor&quot;: &quot;Run&quot;,
-    &quot;Python.somaTrataErro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.somar3num.executor&quot;: &quot;Run&quot;,
-    &quot;Python.supermecadoSimples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.supermercado.executor&quot;: &quot;Run&quot;,
-    &quot;Python.supermercadoRespostaEstacio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tipoDadoDinamico.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tiposDeDados.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tiposNum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trocaExemplo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.while.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marco/PycharmProjects/ExerciciosPython&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in Ex012.py.executor": "Run",
+    "Python.Ex006.executor": "Run",
+    "Python.Ex007.executor": "Run",
+    "Python.Ex008.executor": "Run",
+    "Python.Ex009.executor": "Run",
+    "Python.Ex010.executor": "Run",
+    "Python.Ex011.executor": "Run",
+    "Python.Ex013.executor": "Run",
+    "Python.Ex014.executor": "Run",
+    "Python.Ex15.executor": "Run",
+    "Python.ExNum.executor": "Run",
+    "Python.ExemploPessoa.executor": "Run",
+    "Python.Operadores.executor": "Run",
+    "Python.SaidaFormatada1.executor": "Run",
+    "Python.areaRetangulo.executor": "Run",
+    "Python.atribuicao.executor": "Run",
+    "Python.atribuicoes.executor": "Run",
+    "Python.calcularExpressao.executor": "Run",
+    "Python.complex.executor": "Run",
+    "Python.conceitoBinding.executor": "Run",
+    "Python.constante.executor": "Run",
+    "Python.contantepip.executor": "Run",
+    "Python.convesaoTipo.executor": "Run",
+    "Python.divisao.executor": "Run",
+    "Python.escopoTempVida.executor": "Run",
+    "Python.fasfood.executor": "Run",
+    "Python.funcaoImprimeDados.executor": "Run",
+    "Python.imc.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.media.executor": "Run",
+    "Python.multiplicar.executor": "Run",
+    "Python.precedencia.executor": "Run",
+    "Python.primeiroprograma.executor": "Run",
+    "Python.soma2num.executor": "Run",
+    "Python.somaTrataErro.executor": "Run",
+    "Python.somar3num.executor": "Run",
+    "Python.supermecadoSimples.executor": "Run",
+    "Python.supermercado.executor": "Run",
+    "Python.supermercadoRespostaEstacio.executor": "Run",
+    "Python.teste.executor": "Run",
+    "Python.tipoDadoDinamico.executor": "Run",
+    "Python.tiposDeDados.executor": "Run",
+    "Python.tiposNum.executor": "Run",
+    "Python.trocaExemplo.executor": "Run",
+    "Python.while.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "c6f7433b",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/marco/PycharmProjects/ExerciciosPython",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\marco\PycharmProjects\ExerciciosPython" />
@@ -178,7 +168,7 @@
       <workItem from="1761689442554" duration="5365000" />
       <workItem from="1761700393389" duration="700000" />
       <workItem from="1761701648930" duration="14963000" />
-      <workItem from="1761728086589" duration="11000" />
+      <workItem from="1761728086589" duration="202000" />
     </task>
     <task id="LOCAL-00001" summary="novos exercicios">
       <option name="closed" value="true" />
@@ -196,7 +186,39 @@
       <option name="project" value="LOCAL" />
       <updated>1761722981534</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="novos exercicios">
+      <option name="closed" value="true" />
+      <created>1761728104055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728104055</updated>
+    </task>
+    <task id="LOCAL-00004" summary="novos exercicios">
+      <option name="closed" value="true" />
+      <created>1761728165749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728165749</updated>
+    </task>
+    <task id="LOCAL-00005" summary="novos exercicios">
+      <option name="closed" value="true" />
+      <created>1761728189429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728189429</updated>
+    </task>
+    <task id="LOCAL-00006" summary="novos exercicios">
+      <option name="closed" value="true" />
+      <created>1761728239681</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728239681</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
