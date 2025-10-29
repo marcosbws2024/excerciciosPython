@@ -1,0 +1,7 @@
+a = input('Digite um numero: ')
+print(type(a))
+print(a.isnumeric())
+print(a.isalnum())
+print(a.isalpha())
+print(a.islower())
+print(a.isdecimal())
