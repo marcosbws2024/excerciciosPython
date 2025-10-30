@@ -1,2 +1,7 @@
 metros = float(input("Digite a quantidade de metros: "))
-print("Valor convertido em milimetros: {}".format(metros*1000))
+print("Valor convertido em km: {}km".format(metros/1000))
+print("Valor convertido em hectometros: {}hm".format(metros/100))
+print("Valor convertido em decametros: {}dam".format(metros/10))
+print("Valor convertido em decimetros: {}dm".format(metros * 10))
+print("Valor convertido em centimetros: {:.0f}cm".format(metros * 100))
+print("Valor convertido em milimetros: {:.0f}mm".format(metros*1000))
