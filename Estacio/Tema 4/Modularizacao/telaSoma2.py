@@ -15,7 +15,7 @@ def somarNumeros():
         messagebox.showinfo("Resultado", f"A soma dos números é: {resultado}")
         
     except ValueError:
-        # Captura erros se o usuário digitar algo que não é um número
+        # Captura erros se o usuário digitar algo que não é um númeroPython: Select Interpreter
         messagebox.showerror("Erro de Entrada", "Por favor, insira apenas números válidos.")
     
     # CORREÇÃO 3 e 4: REMOVIDAS as linhas 'janela = tk.Tk()' e 'janela.titlle()'

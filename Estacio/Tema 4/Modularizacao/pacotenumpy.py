@@ -8,8 +8,8 @@ def calcularRaizes(a,b,c):
     return raizes
 
 a = float(input("Valor a: "))
-a = float(input("Valor b: "))
-a = float(input("Valor c: "))
+b = float(input("Valor b: "))
+c = float(input("Valor c: "))
 
 raizes = calcularRaizes(a,b,c)
 print(f"As raizes da Equação são: {raizes[0]} e {raizes[1]}")
