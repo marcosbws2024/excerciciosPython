@@ -1,4 +1,4 @@
-# Código corrigido
+ # Código corrigido
 denominador = 2
 
 if denominador != 0:
