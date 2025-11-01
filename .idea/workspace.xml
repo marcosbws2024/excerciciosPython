@@ -5,23 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39c7542e-fe64-491f-8158-cc922e8c9aad" name="Changes" comment="novos exercicios">
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro/capEventos1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro/capEventos2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro/graficoSomaNum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro/testeErro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 4/funcoesBibliotecas1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/3numMaiorMenor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/ExemploNome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/bissexto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/formaTriangulo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/kmUltrapassa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/notasIf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/parImpar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/ramdomAdivinha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/salarioSeAumento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/viagem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/Aula12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/Emprestimo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/alistamento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/conversao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/conversaoFuncao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/imc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/jokenPo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/jokenpo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/mediaComRecupecao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/natacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/numAninhado.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/produtoPagamento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas/tipoTriangulo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro/erro1 corrigido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro/erro1 corrigido.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guanabara/Tema 4/kmUltrapassa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guanabara/Tema 4/kmUltrapassa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guanabara/Tema 4/ramdomAdivinha.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guanabara/Tema 4/ramdomAdivinha.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +79,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests in Ex012.py.executor": "Run",
     "Python.3numMaiorMenor.executor": "Run",
+    "Python.Aula12.executor": "Run",
     "Python.Dicionario.executor": "Run",
     "Python.EX003.executor": "Run",
+    "Python.Emprestimo.executor": "Run",
     "Python.Ex001.executor": "Run",
     "Python.Ex004.executor": "Run",
     "Python.Ex005.executor": "Run",
@@ -113,6 +114,7 @@
     "Python.Range.executor": "Run",
     "Python.RangeEx01.executor": "Run",
     "Python.SaidaFormatada1.executor": "Run",
+    "Python.alistamento.executor": "Run",
     "Python.areaRetangulo.executor": "Run",
     "Python.atribuicao.executor": "Run",
     "Python.atribuicoes.executor": "Run",
@@ -125,16 +127,21 @@
     "Python.conceitoBinding.executor": "Run",
     "Python.constante.executor": "Run",
     "Python.contantepip.executor": "Run",
+    "Python.conversao.executor": "Run",
+    "Python.conversaoFuncao.executor": "Run",
     "Python.convesaoTipo.executor": "Run",
     "Python.delimitadoresString.executor": "Run",
     "Python.divisao.executor": "Run",
     "Python.escopoTempVida.executor": "Run",
     "Python.fasfood.executor": "Run",
+    "Python.formaTriangulo.executor": "Run",
     "Python.funcTaximetro.executor": "Run",
     "Python.funcaoImprimeDados.executor": "Run",
     "Python.funcaoRecursiva.executor": "Run",
     "Python.graficoSomaNum.executor": "Run",
     "Python.imc.executor": "Run",
+    "Python.jokenPo2.executor": "Run",
+    "Python.jokenpo.executor": "Run",
     "Python.kaprekar100.executor": "Run",
     "Python.kmUltrapassa.executor": "Run",
     "Python.lista.executor": "Run",
@@ -142,13 +149,18 @@
     "Python.maiorNumero.executor": "Run",
     "Python.maiorRecursivo.executor": "Run",
     "Python.media.executor": "Run",
+    "Python.mediaComRecupecao.executor": "Run",
     "Python.menu1e2.executor": "Run",
     "Python.menu1e2_sreturn.executor": "Run",
     "Python.multiplicar.executor": "Run",
+    "Python.natacao.executor": "Run",
     "Python.notasIf.executor": "Run",
+    "Python.numAninhado.executor": "Run",
     "Python.parImpar.executor": "Run",
     "Python.precedencia.executor": "Run",
     "Python.primeiroprograma.executor": "Run",
+    "Python.produtoPagamento.executor": "Run",
+    "Python.ramdomAdivinha.executor": "Run",
     "Python.randim.executor": "Run",
     "Python.range1000.executor": "Run",
     "Python.range1000Otimizado.executor": "Run",
@@ -167,6 +179,7 @@
     "Python.teste.executor": "Run",
     "Python.testeErro.executor": "Run",
     "Python.tipoDadoDinamico.executor": "Run",
+    "Python.tipoTriangulo.executor": "Run",
     "Python.tiposDeDados.executor": "Run",
     "Python.tiposNum.executor": "Run",
     "Python.torreHanoi.executor": "Run",
@@ -229,7 +242,7 @@
       <workItem from="1761950184804" duration="123000" />
       <workItem from="1761950513550" duration="74000" />
       <workItem from="1761950638810" duration="149000" />
-      <workItem from="1761952475835" duration="10532000" />
+      <workItem from="1761952475835" duration="23224000" />
     </task>
     <task id="LOCAL-00001" summary="novos exercicios">
       <option name="closed" value="true" />
@@ -255,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761806699493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="novos exercicios">
+      <option name="closed" value="true" />
+      <created>1761970295747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761970295748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,17 +339,23 @@
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex19.coverage" NAME="Ex19 Coverage Results" MODIFIED="1761771196182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$aula09.coverage" NAME="aula09 Coverage Results" MODIFIED="1761767775366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$parImpar.coverage" NAME="parImpar Coverage Results" MODIFIED="1761966263029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$formaTriangulo.coverage" NAME="formaTriangulo Coverage Results" MODIFIED="1761970211464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$numAninhado.coverage" NAME="numAninhado Coverage Results" MODIFIED="1761981048236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$divisao.coverage" NAME="divisao Coverage Results" MODIFIED="1761535299866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$constante.coverage" NAME="constante Coverage Results" MODIFIED="1761540709088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$3numMaiorMenor.coverage" NAME="3numMaiorMenor Coverage Results" MODIFIED="1761968699239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$range1000.coverage" NAME="range1000 Coverage Results" MODIFIED="1761796503090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$mediaComRecupecao.coverage" NAME="mediaComRecupecao Coverage Results" MODIFIED="1761977082878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$testeErro.coverage" NAME="testeErro Coverage Results" MODIFIED="1761961022427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$alistamento.coverage" NAME="alistamento Coverage Results" MODIFIED="1761976899512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$menu1e2_sreturn.coverage" NAME="menu1e2_sreturn Coverage Results" MODIFIED="1761801205083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex015.coverage" NAME="Ex015 Coverage Results" MODIFIED="1761778089643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$multiplicar.coverage" NAME="multiplicar Coverage Results" MODIFIED="1761534880637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$Emprestimo.coverage" NAME="Emprestimo Coverage Results" MODIFIED="1761980180178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$EX003.coverage" NAME="EX003 Coverage Results" MODIFIED="1761781703831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$precedencia.coverage" NAME="precedencia Coverage Results" MODIFIED="1761545142386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex18.coverage" NAME="Ex18 Coverage Results" MODIFIED="1761770646705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$tipoTriangulo.coverage" NAME="tipoTriangulo Coverage Results" MODIFIED="1761977781878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex010.coverage" NAME="Ex010 Coverage Results" MODIFIED="1761788123408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$trocaExemplo.coverage" NAME="trocaExemplo Coverage Results" MODIFIED="1761704449355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$teste.coverage" NAME="teste Coverage Results" MODIFIED="1761711855366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara" />
@@ -353,35 +380,42 @@
     <SUITE FILE_PATH="coverage/ExerciciosPython$SaidaFormatada1.coverage" NAME="SaidaFormatada1 Coverage Results" MODIFIED="1761708682938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex006.coverage" NAME="Ex006 Coverage Results" MODIFIED="1761787010413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$conceitoBinding.coverage" NAME="conceitoBinding Coverage Results" MODIFIED="1761542004065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$produtoPagamento.coverage" NAME="produtoPagamento Coverage Results" MODIFIED="1761979438408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex001.coverage" NAME="Ex001 Coverage Results" MODIFIED="1761780237233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$delimitadoresString.coverage" NAME="delimitadoresString Coverage Results" MODIFIED="1761793792313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$randim.coverage" NAME="randim Coverage Results" MODIFIED="1761965539779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$rangeOper.coverage" NAME="rangeOper Coverage Results" MODIFIED="1761795909924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex22.coverage" NAME="Ex22 Coverage Results" MODIFIED="1761778458457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$jokenPo2.coverage" NAME="jokenPo2 Coverage Results" MODIFIED="1761982739921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$jokenpo.coverage" NAME="jokenpo Coverage Results" MODIFIED="1761981340038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex16.coverage" NAME="Ex16 Coverage Results" MODIFIED="1761769391676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$soma2num.coverage" NAME="soma2num Coverage Results" MODIFIED="1761718008291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$main.coverage" NAME="main Coverage Results" MODIFIED="1761534231721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Dicionario.coverage" NAME="Dicionario Coverage Results" MODIFIED="1761792073176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$maiorNumero.coverage" NAME="maiorNumero Coverage Results" MODIFIED="1761804512679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$complex.coverage" NAME="complex Coverage Results" MODIFIED="1761712149478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 3" />
-    <SUITE FILE_PATH="coverage/ExerciciosPython$imc.coverage" NAME="imc Coverage Results" MODIFIED="1761709639273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$tratamentoString.coverage" NAME="tratamentoString Coverage Results" MODIFIED="1761766484520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$imc.coverage" NAME="imc Coverage Results" MODIFIED="1761978321890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$capEventos1.coverage" NAME="capEventos1 Coverage Results" MODIFIED="1761961930338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro" />
-    <SUITE FILE_PATH="coverage/ExerciciosPython$kmUltrapassa.coverage" NAME="kmUltrapassa Coverage Results" MODIFIED="1761966180403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$kmUltrapassa.coverage" NAME="kmUltrapassa Coverage Results" MODIFIED="1761971696929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$media.coverage" NAME="media Coverage Results" MODIFIED="1761536069681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex003.coverage" NAME="Ex003 Coverage Results" MODIFIED="1761719967036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Random.coverage" NAME="Random Coverage Results" MODIFIED="1761965148790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4/Modularizacao" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$conversaoFuncao.coverage" NAME="conversaoFuncao Coverage Results" MODIFIED="1761980952275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$fasfood.coverage" NAME="fasfood Coverage Results" MODIFIED="1761709858209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$convesaoTipo.coverage" NAME="convesaoTipo Coverage Results" MODIFIED="1761547167157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Operadores.coverage" NAME="Operadores Coverage Results" MODIFIED="1761725082805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$.coverage" NAME=" Coverage Results" MODIFIED="1761727900980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$ramdomAdivinha.coverage" NAME="ramdomAdivinha Coverage Results" MODIFIED="1761970920564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Range.coverage" NAME="Range Coverage Results" MODIFIED="1761793926364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex009.coverage" NAME="Ex009 Coverage Results" MODIFIED="1761787872891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex20.coverage" NAME="Ex20 Coverage Results" MODIFIED="1761771525947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$calcularExpressao.coverage" NAME="calcularExpressao Coverage Results" MODIFIED="1761706126201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$stringfatiamento.coverage" NAME="stringfatiamento Coverage Results" MODIFIED="1761765157565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$funcTaximetro.coverage" NAME="funcTaximetro Coverage Results" MODIFIED="1761801784279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$natacao.coverage" NAME="natacao Coverage Results" MODIFIED="1761977524724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex02.coverage" NAME="Ex02 Coverage Results" MODIFIED="1761781392931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$Aula12.coverage" NAME="Aula12 Coverage Results" MODIFIED="1761973380135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$viagem.coverage" NAME="viagem Coverage Results" MODIFIED="1761966599472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$funcaoImprimeDados.coverage" NAME="funcaoImprimeDados Coverage Results" MODIFIED="1761541850097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex004.coverage" NAME="Ex004 Coverage Results" MODIFIED="1761782206807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
@@ -403,6 +437,7 @@
     <SUITE FILE_PATH="coverage/ExerciciosPython$kaprekar100.coverage" NAME="kaprekar100 Coverage Results" MODIFIED="1761797231738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$graficoSomaNum.coverage" NAME="graficoSomaNum Coverage Results" MODIFIED="1761961596318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4/TratamentoErro" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex23.coverage" NAME="Ex23 Coverage Results" MODIFIED="1761779396218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$conversao.coverage" NAME="conversao Coverage Results" MODIFIED="1761975060818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$notasIf.coverage" NAME="notasIf Coverage Results" MODIFIED="1761964855459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$tiposDeDados.coverage" NAME="tiposDeDados Coverage Results" MODIFIED="1761542794040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex15.coverage" NAME="Ex15 Coverage Results" MODIFIED="1761727755907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
