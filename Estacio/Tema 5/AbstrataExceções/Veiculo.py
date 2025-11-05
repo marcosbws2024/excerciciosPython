@@ -26,12 +26,27 @@ class Bicicleta(Veiculo):
     def ligar(self):
         return "Não é possível ligar uma bicicleta."
 
+
+class Aviao(Veiculo):
+    def mover(self):
+        return "O avião está voando."
+
+    def ligar(self):
+        return "O avião está ligado."
+
+
 # Testando as implementações
 carro = Carro()
 bicicleta = Bicicleta()
+aviao = Aviao()
 
 print(carro.mover())    # Saída: O carro está se movendo.
 print(carro.ligar())    # Saída: O carro está ligado.
 
 print(bicicleta.mover()) # Saída: A bicicleta está se movendo.
 print(bicicleta.ligar()) # Saída: Não é possível ligar uma bicicleta.
+
+print(aviao.mover())    # Saída: O avião está voando.
+print(aviao.ligar())    # Saída: O avião está ligado
+
+

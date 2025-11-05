@@ -5,46 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39c7542e-fe64-491f-8158-cc922e8c9aad" name="Changes" comment="novos exercicios">
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/Calculadora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/ContaCliente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/ContaComum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/ContaVip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/ErroDivisao0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/ExcecaoCustomizada.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/Veiculo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Composicao/Cliente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Composicao/Conta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Composicao/ContaClienteExtrato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Composicao/Extrato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Composicao/testeContas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Biblioteca/Livro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Biblioteca/Pessoa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Classes/Cliente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Classes/Conta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Classes/ContaEspecial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Classes/ContaRemuneradaPoupanca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Classes/Extrato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Classes/Poupanca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Classes/chama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Classes/herancaMultipla.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Encapsulamento/Ciculo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Encapsulamento/Conta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Encapsulamento/ContaEncapsulamento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Encapsulamento/Math.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/Encapsulamento/testeMath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/HerançaPolimorfismo/Animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/HerançaPolimorfismo/Banco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/HerançaPolimorfismo/ContaCliente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/HerançaPolimorfismo/ContaComum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/HerançaPolimorfismo/ContaRemunerada.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/acessarConta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estacio/Tema 5/chamaconta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Agregacao/Cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Conta.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Agregacao/Conta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Extrato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Agregacao/Extrato.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/agrega.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Agregacao/agrega.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/contaClienteExtrato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao/Agregacao/contaClienteExtrato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/Veiculo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções/Veiculo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +257,7 @@
       <workItem from="1761950513550" duration="74000" />
       <workItem from="1761950638810" duration="149000" />
       <workItem from="1761952475835" duration="23507000" />
-      <workItem from="1762289076244" duration="23798000" />
+      <workItem from="1762289076244" duration="24824000" />
     </task>
     <task id="LOCAL-00001" summary="novos exercicios">
       <option name="closed" value="true" />
@@ -338,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761983018943</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="novos exercicios">
+      <option name="closed" value="true" />
+      <created>1762315920736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762315920744</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +426,7 @@
     <SUITE FILE_PATH="coverage/ExerciciosPython$delimitadoresString.coverage" NAME="delimitadoresString Coverage Results" MODIFIED="1761793792313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$agrega.coverage" NAME="agrega Coverage Results" MODIFIED="1762290716845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 5/AgregacaoEComposicao" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$randim.coverage" NAME="randim Coverage Results" MODIFIED="1761965539779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4" />
-    <SUITE FILE_PATH="coverage/ExerciciosPython$Veiculo.coverage" NAME="Veiculo Coverage Results" MODIFIED="1762315307746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções" />
+    <SUITE FILE_PATH="coverage/ExerciciosPython$Veiculo.coverage" NAME="Veiculo Coverage Results" MODIFIED="1762316044210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 5/AbstrataExceções" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$rangeOper.coverage" NAME="rangeOper Coverage Results" MODIFIED="1761795909924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Estacio/Tema 4" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$Ex22.coverage" NAME="Ex22 Coverage Results" MODIFIED="1761778458457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 3" />
     <SUITE FILE_PATH="coverage/ExerciciosPython$jokenPo2.coverage" NAME="jokenPo2 Coverage Results" MODIFIED="1761982947680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Guanabara/Tema 4/condicoesAninhadas" />
