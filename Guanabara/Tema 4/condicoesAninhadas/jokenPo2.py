@@ -10,7 +10,8 @@ try:
     jogador = int(input(""" Suas Opcoes
 [ 0 ] Pedra
 [ 1 ] Papel
-[ 2 ] Tesoura
+[ 2 ] Tesoura0
+
 Opção Escolhida: """))
 
     print("JO")
