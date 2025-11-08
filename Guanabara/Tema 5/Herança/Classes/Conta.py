@@ -29,8 +29,8 @@ class Conta:
         
     def gerarSaldo(self):
         print("="*20,"SALDO BANCARIO","="*20)
-        nomes_clientes = ", ".join([c.nome for c in self.clientes])
-        print(f"Titulares: {nomes_clientes}")
+        #nomes_clientes = ", ".join([c.nome for c in self.clientes])
+        #print(f"Titulares: {nomes_clientes}")
         print(f"Numero da Conta: {self.numero}")
         print(f"Saldo: {self.saldo}")
         print("="*58)
