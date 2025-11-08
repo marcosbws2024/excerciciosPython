@@ -1,14 +1,17 @@
 from Classes.Cliente import Cliente
 from Classes.Conta import Conta
 from Classes.ContaEspecial import ContaEspecial
+from Classes.ContaRemuneradaPoupanca import ContaRemuneradaPoupance
 
 cliente1 = Cliente("123","joão", "Rua X")
 cliente2 = Cliente("123","joana", "Rua X")
 cliente3 = Cliente("456","Ze","Rua X")
+cliente4 = Cliente("456","Euliene","Rua X")
 
 conta1 = Conta(cliente1,1,2000)
 conta2 = Conta(cliente2,2,2000)
 conta3 = ContaEspecial(cliente3,3,2000,1000)
+conta4 = ContaRemuneradaPoupance(cliente4,4,2300, 0.1)
 
 conta1.depositar(300)
 conta1.tranfereValor(conta2,500)
@@ -28,3 +31,5 @@ conta1.gerarSaldo()
 conta2.gerarSaldo()
 conta3.sacar(2600)
 conta3.gerarSaldo()
+
+conta4.gerarSaldo()
