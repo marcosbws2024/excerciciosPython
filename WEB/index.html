@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Clientes (Web)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro e Listagem de Clientes 🧑‍💻</h1>
+
+        <section class="form-section">
+            <h2>➕ Cadastrar Novo Cliente</h2>
+            <form id="cadastroForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <button type="submit" class="btn primary">Cadastrar Cliente</button>
+            </form>
+        </section>
+
+        <section class="list-section">
+            <h2>📋 Clientes Cadastrados</h2>
+            <button onclick="carregarClientes()" class="btn secondary">Recarregar Lista</button>
+            
+            <table id="clientesTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
