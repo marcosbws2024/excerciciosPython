@@ -1,0 +1,6 @@
+arquivo = open("exemplo.txt", "r", encoding="utf-8")
+conteudo = arquivo.readliones()
+print("Tipo de Conteúdo:" , type(conteudo))
+print("Conteúdo retornado pelo readlines:")
+print(repr(conteudo))
+arquivo.close() 
