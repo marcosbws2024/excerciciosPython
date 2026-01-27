@@ -13,6 +13,7 @@ try:
         if obj.is_file():
             tamanho = os.path.getsize(obj.path)
             print("Tamanho do arquivo em bytes: ", tamanho,"8")
+            
 except FileNotFoundError as erro:
     print("ERRO: O diretório não foi encontrado!")
     print(f"Detalhes do erro: {erro}")
