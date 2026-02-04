@@ -1,5 +1,5 @@
 import sqlite3 as conector
-from modelo import Pessoa
+from BD_CONEXOES.modelo2 import Pessoa
 from JoinRecVeiculos import recuperar_veiculos
 
  # Abertura de conexão e aquisição de cursor

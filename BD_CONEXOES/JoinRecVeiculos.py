@@ -1,24 +1,30 @@
 from modelo import Veiculo, Marca
 
-
 def recuperar_veiculos(conexao, cpf):
-    # Aquisição de cursor
+    # 1. Aquisição de cursor
     cursor = conexao.cursor()
 
-    # Definição dos comandos
+    # 2. Comando SQL
     comando = '''SELECT * FROM Veiculo
                  JOIN Marca ON Marca.id = Veiculo.marca
                  WHERE Veiculo.proprietario = ?;'''
-    cursor.execute(comando, (cpf,))
+    
+    try:
+        cursor.execute(comando, (cpf,))
 
-    # Recuperação dos registros
-    veiculos = []
-    registros = cursor.fetchall()
-    for registro in registros:
-        marca = Marca(*registro[6:])
-        veiculo = Veiculo(*registro[:5], marca)
-        veiculos.append(veiculo)
-
-    # Fechamento do cursor
-    cursor.close()
-    return veículos
+        # 3. Processamento dos registros
+        veiculos = [] # Variável definida SEM acento
+        registros = cursor.fetchall()
+        
+        for registro in registros:
+            # A tabela Veiculo tem colunas 0 a 5. Marca começa no índice 6.
+            marca = Marca(*registro[6:])
+            veiculo = Veiculo(*registro[:5], marca)
+            veiculos.append(veiculo)
+            
+    finally:
+        # 4. Fechamento seguro do cursor
+        cursor.close()
+    
+    # CORREÇÃO: Removido o acento para coincidir com a variável criada acima
+    return veiculos
