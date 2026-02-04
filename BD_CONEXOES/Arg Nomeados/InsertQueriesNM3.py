@@ -1,5 +1,5 @@
 import sqlite3 as conector
-from BD_CONEXOES.modelo1 import Marca, Veiculo
+from BD_CONEXOES.modelo import Marca, Veiculo
 
 conexao = conector.connect("./meu_banco.db")
 conexao.execute("PRAGMA foreign_keys = on")

@@ -1,6 +1,6 @@
 import sqlite3 as conector
 import os
-from BD_CONEXOES.modelo1 import Pessoa
+from BD_CONEXOES.modelo import Pessoa
 
 # 1. Registro de conversores (DEVE vir antes da conexão)
 def conv_bool(dado):

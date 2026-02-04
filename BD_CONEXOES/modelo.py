@@ -12,6 +12,7 @@ class Marca:
         self.nome = nome
         self.sigla = sigla
 
+ 
 class Veiculo:
     def __init__(self, placa, ano, cor, motor, proprietario, marca):
         self.placa = placa
