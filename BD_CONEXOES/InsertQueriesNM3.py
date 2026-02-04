@@ -1,6 +1,6 @@
 import sqlite3 as conector
 import os
-from modelo import Marca, Veiculo
+from BD_CONEXOES.modelo1 import Marca, Veiculo
 
 diretorio_do_script = os.path.dirname(os.path.abspath(__file__))
 caminho_db = os.path.join(diretorio_do_script, "meu_banco.db")

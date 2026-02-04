@@ -1,5 +1,4 @@
- 
-from BD_CONEXOES.modelo1 import Veiculo, Marca
+from modelo import Veiculo, Marca
 
 
 def recuperar_veiculos(conexao, cpf):
@@ -22,4 +21,4 @@ def recuperar_veiculos(conexao, cpf):
 
     # Fechamento do cursor
     cursor.close()
-    return veículos
+    return veiculos

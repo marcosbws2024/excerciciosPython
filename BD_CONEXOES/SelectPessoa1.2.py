@@ -1,6 +1,6 @@
 import sqlite3 as conector
 import os
-from modelo import Pessoa
+from BD_CONEXOES.modelo1 import Pessoa
 
 # 1. Localiza o banco
 diretorio_do_script = os.path.dirname(os.path.abspath(__file__))

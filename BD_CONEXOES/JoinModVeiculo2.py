@@ -10,6 +10,7 @@ comando = '''
  SELECT Veiculo.placa, Veiculo.ano, Veiculo.cor, Veiculo.motor, Veiculo.proprietario, Marca.nome 
  FROM Veiculo 
  JOIN Marca ON Marca.id = Veiculo.marca;'''
+
 cursor.execute(comando)
 
  # Recuperação dos registros

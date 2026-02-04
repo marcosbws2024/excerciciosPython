@@ -1,5 +1,5 @@
 import sqlite3 as conector
-from modelo import Veiculo, Marca
+from BD_CONEXOES.modelo1 import Veiculo, Marca
 
  # Abertura de conexão e aquisição de cursor
 conexao = conector.connect("./meu_banco.db")
