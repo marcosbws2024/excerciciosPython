@@ -1,37 +1,30 @@
-import sqlite3 as conector
-import os
-from BD_CONEXOES.modelo2 import Veiculo
+from modelo import Veiculo, Marca
 
-# 1. Caminho dinâmico (evita erro de "banco não encontrado")
-diretorio = os.path.dirname(os.path.abspath(__file__))
-caminho_db = os.path.join(diretorio, "meu_banco.db")
+def recuperar_veiculos(conexao, cpf):
+    # 1. Aquisição de cursor
+    cursor = conexao.cursor()
 
-# 2. Abertura de conexão
-conexao = conector.connect(caminho_db)
-cursor = conexao.cursor()
-
-# 3. Comando SQL
-# Dica: Selecione exatamente as colunas na ordem que o __init__ do Veiculo espera
-comando = ''' 
-SELECT v.placa, v.ano, v.cor, v.motor, v.proprietario, m.nome 
-FROM Veiculo v 
-JOIN Marca m ON m.id = v.marca;'''
-
-cursor.execute(comando)
-
-# 4. Recuperação e Instanciação
-reg_veiculos = cursor.fetchall()
-
-print(f"{'PLACA':<10} | {'MARCA'}")
-print("-" * 25)
-
-for reg in reg_veiculos:
-    # O '*' espalha os 6 valores do registro nos parâmetros do Veiculo
-    veiculo = Veiculo(*reg) 
+    # 2. Comando SQL
+    comando = '''SELECT * FROM Veiculo
+                 JOIN Marca ON Marca.id = Veiculo.marca
+                 WHERE Veiculo.proprietario = ?;'''
     
-    # Se no seu modelo.py o atributo se chama 'marca', o print abaixo funciona:
-    print(f"{veiculo.placa:<10} | {veiculo.marca}")
+    try:
+        cursor.execute(comando, (cpf,))
 
-# 5. Fechamento seguro
-cursor.close()
-conexao.close()
+        # 3. Processamento dos registros
+        veiculos = [] # Variável definida SEM acento
+        registros = cursor.fetchall()
+        
+        for registro in registros:
+            # A tabela Veiculo tem colunas 0 a 5. Marca começa no índice 6.
+            marca = Marca(*registro[6:])
+            veiculo = Veiculo(*registro[:5], marca)
+            veiculos.append(veiculo)
+            
+    finally:
+        # 4. Fechamento seguro do cursor
+        cursor.close()
+    
+    # CORREÇÃO: Removido o acento para coincidir com a variável criada acima
+    return veiculos

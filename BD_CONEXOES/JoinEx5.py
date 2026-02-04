@@ -1,34 +1,64 @@
-from modelo import Veiculo, Marca
+import sqlite3 as conector
+import os
+from modelo import Pessoa
+from JoinRecVeiculos import recuperar_veiculos
 
-def recuperar_veiculos(conexao, cpf):
-    # 1. Aquisição de cursor
-    cursor = conexao.cursor()
+# 1. Ajuste de Caminho (Resolve o erro 'no such table')
+# Isso descobre a pasta onde este arquivo .py está e aponta para o .db nela
+diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+caminho_banco = os.path.join(diretorio_atual, "meu_banco.db")
 
-    # 2. Comando SQL com JOIN
-    # Mantive o SELECT * que você usou, mas com o filtro de CPF
-    comando = '''SELECT * FROM Veiculo
-                 JOIN Marca ON Marca.id = Veiculo.marca
-                 WHERE Veiculo.proprietario = ?;'''
-    
-    cursor.execute(comando, (cpf,))
+if not os.path.exists(caminho_banco):
+    print(f"ERRO: O arquivo de banco de dados não foi encontrado em:\n{caminho_banco}")
+else:
+    try:
+        # 2. Conexão
+        conexao = conector.connect(caminho_banco)
+        cursor = conexao.cursor()
 
-    # 3. Processamento dos registros
-    veiculos = [] # Variável consistente (sem acento)
-    registros = cursor.fetchall()
-    
-    for registro in registros:
-        # A tabela Veiculo tem 6 colunas (0 a 5)
-        # A tabela Marca começa a partir do índice 6: id, nome, sigla
+        # 3. Execução do comando (Listando colunas para evitar erros de ordem)
+        # Verifique se os nomes das colunas (cpf, nome...) batem com seu banco
+        comando = '''SELECT cpf, nome, nascimento, oculos FROM Pessoa;'''
+        cursor.execute(comando)
+
+        pessoas = []
+        reg_pessoas = cursor.fetchall()
+
+        # 4. Processamento dos registros
+        for reg_pessoa in reg_pessoas:
+            # Cria o objeto Pessoa desempacotando a tupla reg_pessoa
+            pessoa = Pessoa(*reg_pessoa)
+            
+            # Busca os veiculos usando a função que você importou
+            # Passamos a conexão aberta e o CPF da pessoa
+            pessoa.veiculos = recuperar_veiculos(conexao, pessoa.cpf)
+            
+            pessoas.append(pessoa)
+
+        # 5. Exibição dos dados na tela
+        print(f"\n{' RELATÓRIO DE PROPRIETÁRIOS ':=^50}")
         
-        # Criamos o objeto Marca com os dados do JOIN (colunas 6, 7 e 8)
-        marca = Marca(*registro[6:])
+        if not pessoas:
+            print("Nenhum registro de pessoa encontrado.")
         
-        # Criamos o objeto Veiculo com as primeiras 5 colunas e passamos o objeto marca
-        veiculo = Veiculo(*registro[:5], marca)
-        veiculos.append(veiculo)
+        for pessoa in pessoas:
+            print(f"\nProprietário: {pessoa.nome.upper()} (CPF: {pessoa.cpf})")
+            
+            if not pessoa.veiculos:
+                print('\t[!] Nenhum veículo cadastrado para esta pessoa.')
+            else:
+                for v in pessoa.veiculos:
+                    # v.marca.nome assume que v.marca é um objeto da classe Marca
+                    print(f'\t> Veículo: {v.placa:<8} | Marca: {v.marca.nome}')
+        
+        print(f"\n{'='*50}")
 
-    # 4. Fechamento seguro do cursor
-    cursor.close()
+    except conector.Error as erro:
+        print(f"Erro no Banco de Dados: {erro}")
     
-    # Retorno SEM acento para bater com a definição acima
-    return veiculos
+    finally:
+        # 6. Fechamento seguro
+        if 'conexao' in locals():
+            cursor.close()
+            conexao.close()
+            print("\nConexão com o banco encerrada com segurança.")
