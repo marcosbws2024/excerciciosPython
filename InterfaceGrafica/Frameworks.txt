@@ -1,0 +1,10 @@
+pip install tkinter
+pip install flexx
+pip install cefpython3
+pip install Kivy
+pip install pyforms
+pip install PyQt5
+pip install wxpython
+!pip install PyAutoGUI
+pip install pysimplegui
+
