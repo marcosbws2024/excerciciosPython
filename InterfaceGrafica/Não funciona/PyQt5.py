@@ -1,3 +1,5 @@
+#vai dar problema pois agora é pyqt06
+
 import sys
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QLabel, QGridLayout, QWidget
