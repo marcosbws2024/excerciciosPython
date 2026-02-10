@@ -5,7 +5,7 @@ from faker import Faker
 class BancoDados: 
        def __init__(self): 
            self.conexao = psycopg2.connect( 
-               dbname="TESTA_ESTACIO", 
+               dbname="TESTE_ESTACIO", 
                user="postgres", 
                password="123", 
                host="localhost" 
