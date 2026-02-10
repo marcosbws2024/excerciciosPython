@@ -7,7 +7,7 @@ fake = Faker('pt_BR')
 conn = psycopg2.connect(
        database="lojadb",
        user="postgres",
-       password="senha123",
+       password="123",
        host="127.0.0.1",
        port="5432"
    )
