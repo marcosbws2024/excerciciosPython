@@ -24,9 +24,9 @@ class SaborRapidoApp:
             self.listbox.insert(tk.END, item)
 
 
-
         tk.Button(root, text="Adicionar ao Pedido", command=self.adicionar_pedido).pack(pady=5)
         tk.Button(root, text="Visualizar Pedido", command=self.visualizar_pedido).pack(pady=5)
+
 
 
     def adicionar_pedido(self):
