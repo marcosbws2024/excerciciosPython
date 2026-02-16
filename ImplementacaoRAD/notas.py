@@ -1,59 +1,86 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, messagebox
 
+class GestaoEscolar:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Sistema de Gestão Escolar")
+        self.root.geometry("750x500")
 
-janela = tk.Tk()
-janela.title("Sistema de Gestão Escolar")
-janela.geometry("600x400")
+        # --- Frame de Entrada de Dados ---
+        self.frame_campos = tk.LabelFrame(root, text="Cadastro de Aluno", padx=10, pady=10)
+        self.frame_campos.pack(pady=10, padx=10, fill="x")
 
-tk.Label(janela, text="Nome do Aluno:").pack()
+        tk.Label(self.frame_campos, text="Nome:").grid(row=0, column=0, sticky="e")
+        self.ent_nome = tk.Entry(self.frame_campos)
+        self.ent_nome.grid(row=0, column=1, padx=5, pady=2)
 
-entrada_nome = tk.Entry(janela)
-entrada_nome.pack()
-entrada_nota1 = tk.Entry(janela)
-entrada_nota1.pack()
-entrada_nota2 = tk.Entry(janela)
-entrada_nota2.pack()
+        tk.Label(self.frame_campos, text="Nota 1:").grid(row=0, column=2, sticky="e")
+        self.ent_nota1 = tk.Entry(self.frame_campos, width=10)
+        self.ent_nota1.grid(row=0, column=3, padx=5, pady=2)
 
+        tk.Label(self.frame_campos, text="Nota 2:").grid(row=0, column=4, sticky="e")
+        self.ent_nota2 = tk.Entry(self.frame_campos, width=10)
+        self.ent_nota2.grid(row=0, column=5, padx=5, pady=2)
 
-tabela = ttk.Treeview(janela, columns=("Nome", "Nota1", "Nota2", "Média", "Situação"), show="headings")
-tabela.heading("Nome", text="Nome do Aluno")
-tabela.heading("Nota1", text="Nota 1")
-tabela.heading("Nota2", text="Nota 2")
-tabela.heading("Média", text="Média")
-tabela.heading("Situação", text="Situação")
-tabela.pack()
+        self.btn_cadastrar = tk.Button(self.frame_campos, text="Cadastrar Aluno", 
+                                       command=self.cadastrar_aluno, bg="#4CAF50", fg="white")
+        self.btn_cadastrar.grid(row=0, column=6, padx=10)
 
-scrollbar = ttk.Scrollbar(janela, orient="vertical", command=tabela.yview)
-tabela.configure(yscrollcommand=scrollbar.set)
-scrollbar.pack(side="right", fill="y")
+        # --- Tabela (Treeview) ---
+        self.tabela = ttk.Treeview(root, columns=("Nome", "Nota1", "Nota2", "Média", "Situação"), show="headings")
+        self.tabela.heading("Nome", text="Nome do Aluno")
+        self.tabela.heading("Nota1", text="Nota 1")
+        self.tabela.heading("Nota2", text="Nota 2")
+        self.tabela.heading("Média", text="Média")
+        self.tabela.heading("Situação", text="Situação")
+        
+        # Estilizando colunas
+        self.tabela.column("Nome", width=200)
+        self.tabela.column("Nota1", width=80, anchor="center")
+        self.tabela.column("Nota2", width=80, anchor="center")
+        self.tabela.column("Média", width=80, anchor="center")
+        self.tabela.column("Situação", width=120, anchor="center")
+        
+        self.tabela.pack(pady=10, padx=10, fill="both", expand=True)
 
+        self.carregar_iniciais()
 
+    def calcular_situacao(self, media):
+        if media >= 7: return "Aprovado"
+        if media >= 5: return "Recuperação"
+        return "Reprovado"
 
-alunos_iniciais = [
-    ("Alice", 8.5, 7.0),
-    ("Bruno", 5.0, 6.0),
-    ("Carlos", 3.5, 4.0),
-    ("Daniela", 9.0, 9.5)
-]
+    def cadastrar_aluno(self):
+        try:
+            nome = self.ent_nome.get()
+            n1 = float(self.ent_nota1.get())
+            n2 = float(self.ent_nota2.get())
+            
+            if not nome:
+                raise ValueError("O nome é obrigatório")
 
-for aluno in alunos_iniciais:
-    nome, nota1, nota2 = aluno
-    media = (nota1 + nota2) / 2
-    situacao = "Aprovado" if media >= 7 else "Recuperação" if media >= 5 else "Reprovado"
-    tabela.insert("", "end", values=(nome, nota1, nota2, f"{media:.2f}", situacao))
+            media = (n1 + n2) / 2
+            situacao = self.calcular_situacao(media)
 
- 
-def cadastrar_aluno():
-    nome = entrada_nome.get()
-    nota1 = float(entrada_nota1.get())
-    nota2 = float(entrada_nota2.get())
-    media = (nota1 + nota2) / 2
-    situacao = "Aprovado" if media >= 7 else "Recuperação" if media >= 5 else "Reprovado"
+            self.tabela.insert("", "end", values=(nome, n1, n2, f"{media:.2f}", situacao))
+            
+            # Limpar campos após sucesso
+            self.ent_nome.delete(0, tk.END)
+            self.ent_nota1.delete(0, tk.END)
+            self.ent_nota2.delete(0, tk.END)
 
-    tabela.insert("", "end", values=(nome, nota1, nota2, f"{media:.2f}", situacao))
+        except ValueError:
+            messagebox.showerror("Erro de Entrada", "Preencha os campos corretamente (Use ponto em vez de vírgula nas notas)")
 
-tk.Button(janela, text="Cadastrar", command=cadastrar_aluno).pack()
+    def carregar_iniciais(self):
+        alunos = [("Alice", 8.5, 7.0), ("Bruno", 5.0, 6.0), ("Carlos", 3.5, 4.0)]
+        for nome, n1, n2 in alunos:
+            m = (n1 + n2) / 2
+            s = self.calcular_situacao(m)
+            self.tabela.insert("", "end", values=(nome, n1, n2, f"{m:.2f}", s))
 
-
-janela.mainloop()
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = GestaoEscolar(root)
+    root.mainloop()
